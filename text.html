@@ -8,7 +8,7 @@
             #navbar{
                 height: 50px;
                 width: 100%;
-                background-color: red;
+                background-color: black;
                 padding: 0 150px 0 115px;
                }
                
@@ -18,23 +18,31 @@
                }
 
                #navTable{
-                   color: yellow;
+                   color: white;
                    position: absolute;
                    top: 0px;
                    left: 300px;
+                   font-size: 1.5em;
+                   margin-top: 10px;
+               }
+
+               #navTable td{
+                   border-right: 1px solid white;
+                   padding: 0 10px 0 10px;
                }
         </style>
     </head>
 
     <body>
         <div id='navbar'>
-            <img  id='logo' src='./assert/logo.jpeg'>
+            <img  id='logo' src='./assert/logo.png'>
             <table id='navTable'>
                 <tr>
                     <td>Home</td>
                     <td>News</td>
                     <td>Money</td>
                     <td>Traval</td>
+                    <td>Entertainment</td>
                 </tr>
             </table>
         </div>
